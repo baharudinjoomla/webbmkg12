@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Sky Blue */
+    color: #008000; /* Green */
+}
+
+header {
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav {
+    background-color: #008000; /* Green */
+    padding: 10px;
+}
+
+nav a {
+    color: #FFFFFF; /* White */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-section video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    margin: 0 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #008000; /* Green */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 10px;
+}
+
+
+.gambarcard{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.button {
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:20px; 
+    min-width: 100px;
+  }
+
+.button:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
